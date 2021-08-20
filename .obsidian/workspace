@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "03548031f5008b6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b4c088e4957f495",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "instalacion-airflow.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "786f4de6784a4513",
+    "type": "split",
+    "children": [
+      {
+        "id": "97e31a52e9dc2bcd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "539e17a6138e36ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6281748a39fc2d6a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "66e2141801b51ce6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffacadabeaf6bfe4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96337fd33133ba3c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "instalacion-airflow.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6b4c088e4957f495",
+  "lastOpenFiles": [
+    "instalacion-airflow.md",
+    "README.md"
+  ]
+}
