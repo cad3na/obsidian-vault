@@ -5,19 +5,14 @@ sudo apt update
 sudo apt upgrade
 ```
 
-Instalamos pip para python3:
+Instalamos pip para python3, git y una libreria necesaria para Airflow:
 ```bash
-sudo apt install python3-pip
+sudo apt install python3-pip git libffi-dev
 ```
 
-Actualizamos pip a su ultima version
+Actualizamos pip a su ultima version:
 ```bash
 pip3 install -U pip
-```
-
-Instalamos una libreria necesaria para Airflow:
-```bash
-sudo apt install libffi-dev
 ```
 
 Definimos algunas variables de bash para construir el nombre del archivo de requerimientos:
@@ -33,8 +28,14 @@ CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${A
 
 Instalamos la version de Airflow correspondiente a nuestro sistema:
 ```bash
-pip3 install "apache-airflow[postgres,google]==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
+pip3 install "apache-airflow[postgres]==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
 ```
+
+Es posible que el instalador se queje de algunos scripts inaccesibles porque no se encuentran en el PATH, especificamente ```airflow```, por lo que podemos agregar al archivo ```.bashrc```:
+```bash
+export PATH=/home/pi/.local/bin:$PATH
+```
+y posteriormente salir y entrar en una nueva sesión de ssh para forzar la ejecucion de ```.bashrc```.
 
 Instalamos las dependencias de nuestros dags:
 ```bash
@@ -43,17 +44,12 @@ pip3 install numpy scipy matplotlib pandas pyarrow
 
 Instalamos postgres:
 ```bash
-sudo apt install postgresql libpq-dev postgresql-client postgresql-client-common
+sudo apt install postgresql
 ```
 
 Cambiamos de usuario a postgres:
 ```bash
 sudo su postgres
-```
-
-Creamos un usuario
-```bash
-createuser pi -P --interactive
 ```
 
 Entramos a la consola de postgres:
@@ -68,13 +64,31 @@ CREATE USER airflow_user WITH PASSWORD 'airflow_pass';
 GRANT ALL PRIVILEGES ON DATABASE airflow_db TO airflow_user;
 ```
 
-Dentro de airflow.cfg se cambia:
+Solicitamos a airflow el valor actual de la conexion a la base de datos, forzando la creación del archivo de configuración:
+```bash
+airflow config get-value core sql_alchemy_conn
+```
+
+Dentro de ```~/airflow/airflow.cfg``` se cambia:
+```python
+dags_folder = /home/pi/airflow-dags
+```
+y
 ```python
 executor = LocalExecutor
 ```
  y
 ```python
 sql_alchemy_conn = postgresql+psycopg2://airflow_user:airflow_pass@127.0.0.1:5432/airflow_db
+```
+y
+```python
+load_examples = False
+```
+
+Se inicializa base de datos de Airflow:
+```bash
+airflow db init
 ```
 
 Se crea usuario en Airflow:
@@ -84,21 +98,11 @@ airflow users create --username roberto --firstname Roberto --lastname "Cadena V
 
 Se añaden aliases a ```.bashrc```:
 ```bash
-alias afws="nohup airflow webserver --port 8080 > airflow-webserver.out 2> airflow-webserver.err < /dev/null &"
-alias afsc="nohup airflow scheduler -D > airflow-scheduler.out 2>airflow-scheduler.err < /dev/null &"
-```
-
-Se instala git:
-```bash
-sudo apt install git
+alias afws="nohup airflow webserver --port 8080 > airflow-webserver.log &"
+alias afsc="nohup airflow scheduler > airflow-scheduler.log &"
 ```
 
 Se agrega repositorio de DAGs:
 ```bash
 git clone https://github.com/cad3na/airflow-dags.git
-```
-
-Se modifica directorio de DAGs en ```airflow.cfg```:
-```bash
-
 ```
