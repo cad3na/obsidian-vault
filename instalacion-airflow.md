@@ -28,7 +28,7 @@ CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${A
 
 Instalamos la version de Airflow correspondiente a nuestro sistema:
 ```bash
-pip3 install "apache-airflow[postgres]==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
+python3 -m pip install "apache-airflow[postgres]==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
 ```
 
 Es posible que el instalador se queje de algunos scripts inaccesibles porque no se encuentran en el PATH, especificamente ```airflow```, por lo que podemos agregar al archivo ```.bashrc```:
@@ -39,7 +39,7 @@ y posteriormente salir y entrar en una nueva sesión de ssh para forzar la ejecu
 
 Instalamos las dependencias de nuestros dags:
 ```bash
-pip3 install numpy scipy matplotlib pandas pyarrow
+python3 -m pip install numpy scipy matplotlib pandas pyarrow ipython
 ```
 
 Instalamos postgres:
@@ -94,6 +94,12 @@ airflow db init
 Se crea usuario en Airflow:
 ```bash
 airflow users create --username roberto --firstname Roberto --lastname "Cadena Vega" --role Admin --email roberto@cad3na.com
+```
+
+Se añaden usuarios y contraseñas para enviar emails a ```.bashrc```:
+```bash
+export AIRFLOW_EMAIL=airflow@example.com
+export AIRFLOW_PASS=rubb3r-ducky
 ```
 
 Se añaden aliases a ```.bashrc```:
