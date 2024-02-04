@@ -1,3 +1,10 @@
 {
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "accentColor": "",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "custom-rainbow-colors",
+    "extended-colorschemes",
+    "text_width_correction"
+  ]
 }
