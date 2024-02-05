@@ -4,8 +4,9 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "",
-    "folder": ""
+    "template": "templates/daily.md",
+    "folder": "",
+    "enabled": true
   },
   "weekly": {
     "format": "",

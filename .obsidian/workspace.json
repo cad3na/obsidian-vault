@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cheatsheets/Task status cheatsheet.md",
+                "file": "journal/02/W05/2024-02-04.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,6 +31,7 @@
       {
         "id": "a31755214b07aad1",
         "type": "tabs",
+        "dimension": 77.28459530026109,
         "children": [
           {
             "id": "913f09e429ec1f89",
@@ -66,6 +67,21 @@
             }
           }
         ]
+      },
+      {
+        "id": "4038b48b00085431",
+        "type": "tabs",
+        "dimension": 22.715404699738905,
+        "children": [
+          {
+            "id": "321a7f87303d4073",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cheatsheets/Task status cheatsheet.md",
+                "file": "journal/02/W05/2024-02-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,14 +110,6 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "321a7f87303d4073",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           }
         ]
@@ -117,13 +125,22 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "daily-notes:Open today's daily note": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "bcd8a0f62df72f05",
+  "active": "913f09e429ec1f89",
   "lastOpenFiles": [
-    "templates/daily.md",
+    "journal/02/W05/2024-02-03.md",
+    "journal/02/W05/2024-02-02.md",
+    "journal/02/W05/2024-02-01.md",
+    "journal/02/W05",
+    "journal/02",
+    "journal/02/W05/2024-02-04.md",
+    "2024-02-04.md",
     "cheatsheets/Task status cheatsheet.md",
+    "templates/daily.md",
     "projects/Network Rack mounts.md",
     "projects/TOTEM.md",
     "network/nas.md",
