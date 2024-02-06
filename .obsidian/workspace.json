@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journal/02/W05/2024-02-04.md",
+                "file": "network/ender.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
       {
         "id": "a31755214b07aad1",
         "type": "tabs",
-        "dimension": 77.28459530026109,
+        "dimension": 73.8345864661654,
         "children": [
           {
             "id": "913f09e429ec1f89",
@@ -71,7 +71,7 @@
       {
         "id": "4038b48b00085431",
         "type": "tabs",
-        "dimension": 22.715404699738905,
+        "dimension": 26.165413533834585,
         "children": [
           {
             "id": "321a7f87303d4073",
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journal/02/W05/2024-02-04.md",
+                "file": "network/ender.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,22 +130,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "913f09e429ec1f89",
+  "active": "bcd8a0f62df72f05",
   "lastOpenFiles": [
-    "journal/02/W05/2024-02-03.md",
-    "journal/02/W05/2024-02-02.md",
+    "network/voron.md",
+    "network/ender.md",
+    "network/homeassistant.md",
+    "network/server.md",
+    "network/nas.md",
+    "network/chihiro.md",
+    "journal/02/W06/2024-02-05.md",
+    "network",
+    "network/sofia.md",
+    "Untitled.md",
+    "journal/02/W05/2024-02-04.md",
     "journal/02/W05/2024-02-01.md",
+    "journal/02/W05/2024-02-02.md",
+    "journal/02/W05/2024-02-03.md",
+    "journal/02/W06",
     "journal/02/W05",
     "journal/02",
-    "journal/02/W05/2024-02-04.md",
     "2024-02-04.md",
     "cheatsheets/Task status cheatsheet.md",
     "templates/daily.md",
     "projects/Network Rack mounts.md",
     "projects/TOTEM.md",
-    "network/nas.md",
-    "network/server.md",
-    "network/chihiro.md",
     "research/instalacion-airflow.md",
     "projects",
     "cheatsheets",
