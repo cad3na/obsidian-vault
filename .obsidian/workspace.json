@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network/ender.md",
+                "file": "journal/2024/02/W07/2024-02-13.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
       {
         "id": "a31755214b07aad1",
         "type": "tabs",
-        "dimension": 73.8345864661654,
+        "dimension": 81.64021164021163,
         "children": [
           {
             "id": "913f09e429ec1f89",
@@ -71,7 +71,7 @@
       {
         "id": "4038b48b00085431",
         "type": "tabs",
-        "dimension": 26.165413533834585,
+        "dimension": 18.35978835978836,
         "children": [
           {
             "id": "321a7f87303d4073",
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network/ender.md",
+                "file": "journal/2024/02/W07/2024-02-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,41 +126,46 @@
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "daily-notes:Open today's daily note": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "bcd8a0f62df72f05",
   "lastOpenFiles": [
-    "network/voron.md",
+    "journal/2024/02/W07/2024-02-12.md",
+    "journal/2024/02/W07/2024-02-13.md",
+    "journal/2024/02/W06/2024-02-09.md",
+    "journal/2024/02/W06/2024-02-11.md",
+    "journal/2024/02/W07",
+    "journal/2024/02/W06/2024-02-08.md",
+    "journal/2024/02/W06/2024-02-07.md",
+    "research/instalacion-airflow.md",
+    "journal/2024/02/W05/2024-02-01.md",
+    "journal/2024/02/W05/2024-02-02.md",
+    "journal/2024/02/W05/2024-02-03.md",
+    "journal/2024/02/W05/2024-02-04.md",
+    "journal/2024/02/W06/2024-02-05.md",
+    "journal/2024/02/W06/2024-02-06.md",
+    "network/sofia.md",
     "network/ender.md",
+    "journal/2024",
+    "network/voron.md",
     "network/homeassistant.md",
     "network/server.md",
     "network/nas.md",
     "network/chihiro.md",
-    "journal/02/W06/2024-02-05.md",
     "network",
-    "network/sofia.md",
     "Untitled.md",
-    "journal/02/W05/2024-02-04.md",
-    "journal/02/W05/2024-02-01.md",
-    "journal/02/W05/2024-02-02.md",
-    "journal/02/W05/2024-02-03.md",
-    "journal/02/W06",
-    "journal/02/W05",
-    "journal/02",
+    "journal/2024/02/W06",
+    "journal/2024/02/W05",
+    "journal/2024/02",
     "2024-02-04.md",
     "cheatsheets/Task status cheatsheet.md",
     "templates/daily.md",
     "projects/Network Rack mounts.md",
     "projects/TOTEM.md",
-    "research/instalacion-airflow.md",
     "projects",
     "cheatsheets",
     "templates",
-    "network",
-    "README.md",
-    "journal",
-    "research"
+    "network"
   ]
 }

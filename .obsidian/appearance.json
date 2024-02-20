@@ -6,5 +6,6 @@
     "custom-rainbow-colors",
     "extended-colorschemes",
     "text_width_correction"
-  ]
+  ],
+  "translucency": false
 }
