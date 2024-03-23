@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "21a468dd16d4e1fa",
+        "id": "5c2848374d614513",
         "type": "tabs",
         "children": [
           {
-            "id": "bcd8a0f62df72f05",
+            "id": "91f1b8bc9cc486ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journal/2024/02/W07/2024-02-13.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journal/2024/02/W07/2024-02-13.md",
+                "file": "journal/2024/03/W10/2024-03-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,16 +125,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bcd8a0f62df72f05",
+  "active": "913f09e429ec1f89",
   "lastOpenFiles": [
-    "journal/2024/02/W07/2024-02-12.md",
+    "journal/2024/03/W10",
+    "journal/2024/03",
+    "research/instalacion-airflow.md",
+    "journal/2024/03/W10/2024-03-10.md",
+    "network/chihiro.md",
+    "network/nas.md",
     "journal/2024/02/W07/2024-02-13.md",
+    "journal/2024/02/W07/2024-02-12.md",
     "journal/2024/02/W06/2024-02-09.md",
     "journal/2024/02/W06/2024-02-11.md",
     "journal/2024/02/W07",
     "journal/2024/02/W06/2024-02-08.md",
     "journal/2024/02/W06/2024-02-07.md",
-    "research/instalacion-airflow.md",
     "journal/2024/02/W05/2024-02-01.md",
     "journal/2024/02/W05/2024-02-02.md",
     "journal/2024/02/W05/2024-02-03.md",
@@ -151,8 +152,6 @@
     "network/voron.md",
     "network/homeassistant.md",
     "network/server.md",
-    "network/nas.md",
-    "network/chihiro.md",
     "network",
     "Untitled.md",
     "journal/2024/02/W06",
@@ -161,11 +160,8 @@
     "2024-02-04.md",
     "cheatsheets/Task status cheatsheet.md",
     "templates/daily.md",
-    "projects/Network Rack mounts.md",
-    "projects/TOTEM.md",
     "projects",
     "cheatsheets",
-    "templates",
-    "network"
+    "templates"
   ]
 }
