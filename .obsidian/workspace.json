@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5c2848374d614513",
+        "id": "7836a36dfb901f9b",
         "type": "tabs",
         "children": [
           {
-            "id": "91f1b8bc9cc486ef",
+            "id": "fb0837ca3a43360b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "journal/2024/05/W21/2024-05-20.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -27,7 +31,7 @@
       {
         "id": "a31755214b07aad1",
         "type": "tabs",
-        "dimension": 81.64021164021163,
+        "dimension": 66.12284069097889,
         "children": [
           {
             "id": "913f09e429ec1f89",
@@ -67,7 +71,7 @@
       {
         "id": "4038b48b00085431",
         "type": "tabs",
-        "dimension": 18.35978835978836,
+        "dimension": 33.87715930902112,
         "children": [
           {
             "id": "321a7f87303d4073",
@@ -97,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journal/2024/03/W10/2024-03-10.md",
+                "file": "journal/2024/05/W21/2024-05-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,15 +129,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "913f09e429ec1f89",
+  "active": "fb0837ca3a43360b",
   "lastOpenFiles": [
+    "journal/2024/02/W07/2024-02-13.md",
+    "journal/2024/03/W10/2024-03-10.md",
+    "journal/2024/05/W21/2024-05-20.md",
+    "journal/2024/05/W21",
+    "journal/2024/05",
+    "cheatsheets/Task status cheatsheet.md",
+    "research/instalacion-airflow.md",
+    "research/keyboards.md",
     "journal/2024/03/W10",
     "journal/2024/03",
-    "research/instalacion-airflow.md",
-    "journal/2024/03/W10/2024-03-10.md",
     "network/chihiro.md",
     "network/nas.md",
-    "journal/2024/02/W07/2024-02-13.md",
     "journal/2024/02/W07/2024-02-12.md",
     "journal/2024/02/W06/2024-02-09.md",
     "journal/2024/02/W06/2024-02-11.md",
@@ -156,12 +165,6 @@
     "Untitled.md",
     "journal/2024/02/W06",
     "journal/2024/02/W05",
-    "journal/2024/02",
-    "2024-02-04.md",
-    "cheatsheets/Task status cheatsheet.md",
-    "templates/daily.md",
-    "projects",
-    "cheatsheets",
-    "templates"
+    "journal/2024/02"
   ]
 }

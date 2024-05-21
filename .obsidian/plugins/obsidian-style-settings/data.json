@@ -43,5 +43,20 @@
   "anuppuccin-theme-settings@@anp-floating-header": false,
   "anuppuccin-theme-settings@@anp-collapse-folders": false,
   "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-light": false,
-  "anuppuccin-theme-settings@@anp-rainbow-folder-bg-opacity": 0.6
+  "anuppuccin-theme-settings@@anp-rainbow-folder-bg-opacity": 0.6,
+  "anuppuccin-theme-settings@@anp-button-metadata-toggle": false,
+  "anuppuccin-theme-settings@@anp-print": false,
+  "anuppuccin-theme-settings@@anp-color-transition-toggle": false,
+  "anuppuccin-theme-settings@@anp-decoration-toggle": false,
+  "anuppuccin-theme-settings@@anp-disable-newtab-align": true,
+  "anuppuccin-theme-settings@@anp-file-label-align": "0",
+  "anuppuccin-theme-settings@@anp-custom-vault-toggle": false,
+  "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-light": false,
+  "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-dark": false,
+  "anuppuccin-theme-settings@@anp-colorful-frame-opacity": 1,
+  "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
+  "anuppuccin-theme-settings@@anp-speech-bubble": true,
+  "anuppuccin-theme-settings@@anp-toggle-scrollbars": true,
+  "anuppuccin-theme-settings@@anp-hide-status-bar": false,
+  "anuppuccin-theme-settings@@anp-tooltip-toggle": false
 }
